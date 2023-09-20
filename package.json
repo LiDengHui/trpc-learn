@@ -1,0 +1,20 @@
+{
+  "name": "trpc-learn",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "serve": "bun run ./server/index.ts",
+    "client": "bun run ./client/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.38.3",
+    "@trpc/server": "^10.38.3",
+    "zod": "^3.22.2"
+  }
+}
