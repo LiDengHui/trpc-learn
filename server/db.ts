@@ -13,7 +13,7 @@ export const db= {
     create: async(data: {name: string, }) => {
       const user = {id: `${users.length}`, ...data};
       users.push(user);
-      return user;
+      return user as User;
     }
   }
 }
